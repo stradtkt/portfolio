@@ -1,4 +1,6 @@
 {
     "mongoURI": "mongodb://kevin:kevin123@ds263146.mlab.com:63146/portfolio",
-    "jwtSecret": "myjwtsecret"
+    "jwtSecret": "myjwtsecret",
+    "githubClientId": "938d29390aab47fb5829",
+    "githubSecret": "6fdce48400f6a82a557da23a3b4c07e5d195a5f4"
 }
