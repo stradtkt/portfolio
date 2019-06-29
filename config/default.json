@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb://kevin:kevin123@ds263146.mlab.com:63146/portfolio"
+    "mongoURI": "mongodb://kevin:kevin123@ds263146.mlab.com:63146/portfolio",
+    "jwtSecret": "myjwtsecret"
 }
