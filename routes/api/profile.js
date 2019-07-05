@@ -198,27 +198,27 @@ router.put(
     async (req, res) => {
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
-        return res.status(400).json({ errors: errors.array() });
+            return res.status(400).json({ errors: errors.array() });
         }
 
         const {
-        school,
-        degree,
-        fieldofstudy,
-        from,
-        to,
-        current,
-        description
+            school,
+            degree,
+            fieldofstudy,
+            from,
+            to,
+            current,
+            description
         } = req.body;
 
         const newEdu = {
-        school,
-        degree,
-        fieldofstudy,
-        from,
-        to,
-        current,
-        description
+            school,
+            degree,
+            fieldofstudy,
+            from,
+            to,
+            current,
+            description
         };
 
         try {
