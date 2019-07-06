@@ -11,6 +11,19 @@
     margin: 0;
     padding: 0;
   }
+img {
+    width: 50%;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.round-img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
 
 .x-large {
     font-size: 4rem;
